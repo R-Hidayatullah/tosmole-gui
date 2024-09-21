@@ -3,6 +3,9 @@ cmake_minimum_required(VERSION 3.5.0)
 # Define the project name and version
 project(tosmole-gui VERSION 0.1.0 LANGUAGES C CXX)
 
+include_directories(include)
+
+
 # Add the executable target
 add_executable(tosmole-gui src/main.cpp)
 
